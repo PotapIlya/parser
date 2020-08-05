@@ -1,15 +1,16 @@
 <?php
 
-require_once 'simple_html_dom/simple_html_dom.php';
+$curl = curl_init();
+$url = 'https://freelancehunt.com/projects?name=laravel&tags%5B%5D=php&tags%5B%5D=javascript&tags%5B%5D=html&tags%5B%5D=CSS%2FHTML&tags%5B%5D=Vue.js';
 
-$html = file_get_contents('https://freelancehunt.com/projects?name=laravel&tags%5B%5D=php&tags%5B%5D=javascript&tags%5B%5D=html&tags%5B%5D=CSS%2FHTML&tags%5B%5D=Vue.js');
+curl_setopt($curl, CURLOPT_URL, $url);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($curl, CURLOPT_DNS_CACHE_TIMEOUT, 30);
 
-$html = str_get_html($html);
+$html = curl_exec($curl);
 
+$url = '|data-published=.*?|sei';
 
-$html = $html->find('.table.table-normal.project-list', 0);
+preg_match_all($url, $html, $arr);
 
-foreach ($html->find('tr') as $item)
-{
-    echo $item;
-}
+print_r($arr);
