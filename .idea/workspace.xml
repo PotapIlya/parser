@@ -4,7 +4,6 @@
     <list default="true" id="99fd8047-9fc7-41d5-907d-0cb78cd15412" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisFileForMaster.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596637003118</updated>
       <workItem from="1596637004262" duration="1024000" />
+      <workItem from="1596656744057" duration="1424000" />
     </task>
     <servers />
   </component>
@@ -75,6 +75,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1596639702154" />
+    <state x="2697" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596657707034">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2697" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1596657707034" />
     <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1596637120382">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
