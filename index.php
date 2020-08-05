@@ -8,6 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-<h1>test</h1>
+    <main>
+        <section>
+            <h1>test</h1>
+        </section>
+    </main>
 </body>
 </html>

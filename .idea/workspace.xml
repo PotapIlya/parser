@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99fd8047-9fc7-41d5-907d-0cb78cd15412" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +35,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="dev" />
+    </force-push-targets>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,10 +58,22 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="262" height="398" key="Git.Branch.Popup" timestamp="1596639694928">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="262" height="398" key="Git.Branch.Popup/72.27.1848.1053@72.27.1848.1053" timestamp="1596639694928" />
     <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1596637017691">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1596637017691" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1596639679314">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1596639679314" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596639702154">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1596639702154" />
     <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1596637120382">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
