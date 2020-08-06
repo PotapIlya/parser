@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99fd8047-9fc7-41d5-907d-0cb78cd15412" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cookie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -52,7 +54,7 @@
       <updated>1596637003118</updated>
       <workItem from="1596637004262" duration="1024000" />
       <workItem from="1596656744057" duration="4724000" />
-      <workItem from="1596705040089" duration="2345000" />
+      <workItem from="1596705040089" duration="5932000" />
     </task>
     <servers />
   </component>
@@ -64,9 +66,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="262" height="398" key="Git.Branch.Popup/72.27.1848.1053@72.27.1848.1053" timestamp="1596639694928" />
-    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1596637017691">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="2667" y="464" width="399" height="156" key="NewPhpFileDialog" timestamp="1596711069994">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2667" y="464" width="399" height="156" key="NewPhpFileDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1596711069994" />
     <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1596637017691" />
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1596639679314">
       <screen x="72" y="27" width="1848" height="1053" />
@@ -76,10 +79,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1596639702154" />
-    <state x="2697" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596660746576">
+    <state x="2697" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596709391405">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2697" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1596660746576" />
+    <state x="2697" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1596709391405" />
     <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1596637120382">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
