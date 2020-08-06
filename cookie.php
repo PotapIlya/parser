@@ -18,7 +18,7 @@ if(isset($_COOKIE['curl_normal_cookie']))
 
 
 
-setcookie('curl_session_cookie', 1);
+setcookie('curl_session_cookie', 1, time() + 1000 );
 setcookie('curl_normal_cookie', 1);
 
 if ($cook)

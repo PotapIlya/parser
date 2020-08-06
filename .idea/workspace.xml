@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99fd8047-9fc7-41d5-907d-0cb78cd15412" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cookie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookie.php" beforeDir="false" afterPath="$PROJECT_DIR$/cookie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Рабочий стол/phpStormTest/portfolioLaravel" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,7 +52,10 @@
       <updated>1596637003118</updated>
       <workItem from="1596637004262" duration="1024000" />
       <workItem from="1596656744057" duration="4724000" />
-      <workItem from="1596705040089" duration="5932000" />
+      <workItem from="1596705040089" duration="6402000" />
+      <workItem from="1596717160371" duration="1221000" />
+      <workItem from="1596718871307" duration="584000" />
+      <workItem from="1596719761871" duration="323000" />
     </task>
     <servers />
   </component>
@@ -62,6 +63,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2699" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1596712342669">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2699" y="311" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1596712342669" />
     <state width="262" height="398" key="Git.Branch.Popup" timestamp="1596639694928">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -79,10 +84,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1596639702154" />
-    <state x="2697" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596709391405">
+    <state x="2697" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596712313082">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2697" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1596709391405" />
+    <state x="2697" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1596712313082" />
     <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1596637120382">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
