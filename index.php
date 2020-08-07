@@ -45,14 +45,30 @@ $post = [
 ];
 
 
+
+
 $html = requests($url, $post);
+$array = [];
 
-//$html = strripos($html, '<div class="col-12 col-sm-6 col-md-4">');
+$dom = new DOMDocument();
+$res = @$dom->loadHTML($html);
 
-echo $html;
+if ($res)
+{
+	$title = $dom->getElementsByTagName('h5');
+	$text = $dom->getElementsByTagName('p');
 
 
 
+	foreach ($title as $i=>$item)
+	{
+		$array[$i]['title'] = $item->nodeValue;
+		$array[$i]['text'] = $text[$i]->nodeValue;
+	}
+
+}
+
+var_dump($array);
 
 
 
