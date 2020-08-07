@@ -33,9 +33,6 @@ function requests($url, $postdata = null, $cookieFile = '/file.txt')
 
 }
 
-//file_put_contents('/file.txt', '');
-
-
 $url = 'https://slivcours.ru/pages/auth.php';
 
 $post = [
@@ -44,31 +41,35 @@ $post = [
     'do_login' => ''
 ];
 
-
-
-
 $html = requests($url, $post);
 $array = [];
 
 $dom = new DOMDocument();
 $res = @$dom->loadHTML($html);
 
+$classname = 'card';
+
 if ($res)
 {
-	$title = $dom->getElementsByTagName('h5');
-	$text = $dom->getElementsByTagName('p');
+	$box = $dom->registerNodeClass( utf8_encode('div') , 'card');
 
-
-
-	foreach ($title as $i=>$item)
-	{
-		$array[$i]['title'] = $item->nodeValue;
-		$array[$i]['text'] = $text[$i]->nodeValue;
-	}
-
+	var_dump($box);
 }
 
-var_dump($array);
+//if ($res)
+//{
+//	$title = $dom->getElementsByTagName('h5');
+//	$text = $dom->getElementsByTagName('p');
+//
+//	foreach ($title as $i=>$item)
+//	{
+//		$array[$i]['title'] = $item->nodeValue;
+//		$array[$i]['text'] = $text[$i]->nodeValue;
+//		//
+//	}
+//}
+
+//var_dump($array);
 
 
 
