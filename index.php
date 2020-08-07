@@ -1,6 +1,6 @@
 <?php
 
-function requests($url, $postdata = null, $cookieFile = '/file/file.txt')
+function requests($url, $postdata = null, $cookieFile = '/file.txt')
 {
     $ch = curl_init($url);
 
@@ -15,8 +15,8 @@ function requests($url, $postdata = null, $cookieFile = '/file/file.txt')
     curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
-    curl_setopt($ch, CURLOPT_PROXY, '104.45.188.43:3128');
-    curl_setopt($ch, CURLOPT_PROXYTYPE, CURLOPT_PROXY_HTTP);
+//    curl_setopt($ch, CURLOPT_PROXY, '104.45.188.43:3128');
+//    curl_setopt($ch, CURLOPT_PROXYTYPE, CURLOPT_PROXY_HTTP);
 
     curl_setopt($ch, CURLOPT_TIMEOUT, 9);
     curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 6);
@@ -33,13 +33,10 @@ function requests($url, $postdata = null, $cookieFile = '/file/file.txt')
 
 }
 
+//file_put_contents('/file.txt', '');
 
 
-file_put_contents('/file.txt', '');
-
-
-//$url = 'https://slivcours.ru/pages/auth.php';
-$url = 'https://hidemy.name/ru/proxy-list/?type=hs#list';
+$url = 'https://slivcours.ru/pages/auth.php';
 
 $post = [
     'login' => 'ivan',
@@ -48,9 +45,31 @@ $post = [
 ];
 
 
-$html = requests($url);
+$html = requests($url, $post);
+
+//$html = strripos($html, '<div class="col-12 col-sm-6 col-md-4">');
 
 echo $html;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
