@@ -35,15 +35,13 @@
 
 
 require_once './files/simple_html_dom.php';
-
+include './pdo/pdo.php';
 
 class Parser
 {
-
     private $url = null;
     private $status = true;
     private $index = 0;
-    public $resArray = [];
 
     function __construct($url)
     {
@@ -51,53 +49,68 @@ class Parser
 
         if (!is_null($this->url))
         {
-            $this->parse();
+            $this->pages();
         }
     }
-
-    private function parse()
+    private function pages()
     {
         while ($this->status)
         {
-
             if ($this->checkUrl($this->url) === 200)
             {
-
                 $this->index++;
                 $this->url = 'https://freelancehunt.com/projects?tags[]=php&tags[]=javascript&tags[]=html&tags[]=CSS/HTML&tags[]=Vue.js&page='.$this->index;
 
-
+                $this->serchHtml($this->url);
 //                $resArray[$this->index] = $this->serchHtml($this->url);
-                $test = $this->serchHtml($this->url);
+//                $test = $this->serchHtml($this->url);
 
 //                echo count($test).'<br>';
 
-                $this->resArray[$this->index] = $test;
+//                $this->resArray[$this->index] = $test;
             }
             else
             {
                 $this->status = false;
-                $this->res();
+//                $this->res();
             }
 
         }
-    }
-    private function res()
-    {
-//        echo $this->resArray[0][0];
     }
 
     private function serchHtml($url)
     {
         $html = file_get_html($url);
-        $array = [];
+
 
         foreach ($html->find('.table.table-normal.project-list tbody tr') as $i=>$wrapper)
         {
-            $array[$i]['url'] = $wrapper->find('a', 0);
-            $array[$i]['price'] = $wrapper->find('.text-center.project-budget.hidden-xs', 0);
+//
+            echo $wrapper;
+            $db = $pdo->prepare("SELECT * FROM `parser`");
+            $db->execute();
+            $result = $db->fetchAll(PDO::FETCH_KEY_PAIR);
+
+            var_dump($result);
+
+//
+//            if (!count($result))
+//            {
+////echo 12;
+////                $sth = $mysql->prepare("INSERT INTO parser SET title = :title");
+////                $sth->execute([
+////                    'title' => $title,
+////                ]);
+//            }
+
+//            $href = $wrapper->find('a', 0)->href;
+//            $array[$i]['href'] = $href;
+//            $array[$i]['title'] = $wrapper->find('a', 0)->innertext;
+//            $array[$i]['price'] = $wrapper->find('.text-center.project-budget.hidden-xs', 0);
+//            $array[$i]['category'] = $wrapper->find('td.left small', 0);
+//            $array[$i]['text'] = file_get_html($href)->find('#project-description', 0);
+
         }
-        return $array;
     }
 
     private function checkUrl($url)
@@ -116,11 +129,11 @@ class Parser
     }
 }
 
-$url = 'https://freelancehunt.com/projects?tags[]=php&tags[]=javascript&tags[]=html&tags[]=CSS/HTML&tags[]=Vue.js&page=1';
+$url = 'https://freelancehunt.com/projects?tags[]=php&tags[]=javascript&tags[]=html&tags[]=CSS/HTML&tags[]=Vue.js&page=0';
 
 $class = new Parser($url);
 
-$frontArray = $class->resArray;
+//echo count($class->resArray);
 
 
 
@@ -131,8 +144,18 @@ $frontArray = $class->resArray;
 
 
 
-
-
-
-
-
+//foreach ($html->find('table.table.table-normal.project-list tbody tr') as $i=>$wrapper)
+//{
+//
+//    $href = $wrapper->find('a', 0)->href;
+//
+//    $array[$i]['href'] = $href;
+//
+//    $array[$i]['title'] = $wrapper->find('a', 0)->innertext;
+//    $array[$i]['price'] = $wrapper->find('.text-center.project-budget.hidden-xs', 0);
+//    $array[$i]['category'] = $wrapper->find('td.left small', 0);
+//    $array[$i]['text'] = file_get_html($href)->find('#project-description', 0);
+//
+////    var_dump($wrapper->find('a', 0)->plaintext);
+//
+//}
