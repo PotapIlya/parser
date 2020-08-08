@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99fd8047-9fc7-41d5-907d-0cb78cd15412" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/simple_html_dom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookie.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_html_dom.php" beforeDir="false" afterPath="$PROJECT_DIR$/files/simple_html_dom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files" />
       <recent name="C:\OpenServer\domains\parser\parser" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -66,20 +71,22 @@
       <workItem from="1596796443436" duration="4247000" />
       <workItem from="1596804594479" duration="591000" />
       <workItem from="1596811514958" duration="1645000" />
+      <workItem from="1596889347253" duration="7312000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state width="262" height="398" key="Git.Branch.Popup" timestamp="1596639694928">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="262" height="398" key="Git.Branch.Popup/72.27.1848.1053@72.27.1848.1053" timestamp="1596639694928" />
-    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1596637017691">
+    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1596890948960">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
+    <state x="791" y="479" key="NewPhpFileDialog/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1596890948960" />
     <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1596637017691" />
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1596639679314">
       <screen x="72" y="27" width="1848" height="1053" />
@@ -93,6 +100,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="92" y="122" width="1736" height="866" key="dock-window-1/0.30.1920.1050@0.30.1920.1050" timestamp="1596811894689" />
+    <state x="660" y="252" key="run.anything.popup" timestamp="1596896360793">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="660" y="252" key="run.anything.popup/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1596896360793" />
     <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1596637120382">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
