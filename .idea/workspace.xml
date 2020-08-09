@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99fd8047-9fc7-41d5-907d-0cb78cd15412" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pdo/pdo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdo/pdo.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdo/pdo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -78,6 +83,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="591" y="215" width="800" height="684" key="#Deployment" timestamp="1596972148120">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="591" y="215" width="800" height="684" key="#Deployment/72.27.1848.1053@72.27.1848.1053" timestamp="1596972148120" />
     <state width="262" height="398" key="Git.Branch.Popup" timestamp="1596639694928">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -95,10 +104,18 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1596639702154" />
+    <state x="835" y="453" width="321" height="207" key="WebDeployment.AddServerDialog.v.1" timestamp="1596972124565">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="835" y="453" width="321" height="207" key="WebDeployment.AddServerDialog.v.1/72.27.1848.1053@72.27.1848.1053" timestamp="1596972124565" />
     <state x="92" y="122" width="1736" height="866" key="dock-window-1" timestamp="1596811894689">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="92" y="122" width="1736" height="866" key="dock-window-1/0.30.1920.1050@0.30.1920.1050" timestamp="1596811894689" />
+    <state x="811" y="326" width="360" height="462" key="refactoring.ChangeSignatureDialog" timestamp="1596964552831">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="811" y="326" width="360" height="462" key="refactoring.ChangeSignatureDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1596964552831" />
     <state x="660" y="252" key="run.anything.popup" timestamp="1596896360793">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
